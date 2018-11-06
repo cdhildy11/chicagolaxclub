@@ -1,0 +1,787 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+/* line 5, ../../../sass-test/sass/home.scss */
+* {
+  font-family: 'Heebo', sans-serif;
+}
+
+/* line 9, ../../../sass-test/sass/home.scss */
+.home {
+  background-color: #969696;
+}
+
+/* line 13, ../../../sass-test/sass/home.scss */
+.home-background {
+  background: linear-gradient(rgba(1, 84, 166, 0.5), rgba(1, 84, 166, 0.5)), url(chi-skyline.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1700px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+/* line 29, ../../../sass-test/sass/home.scss */
+.clc-title {
+  height: 97px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+/* line 37, ../../../sass-test/sass/home.scss */
+.clc-logo {
+  background-image: url("CLC.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar styles */
+/* line 48, ../../../sass-test/sass/home.scss */
+.nav > .nav_list > .nav-link {
+  padding: 12.5px 0px;
+}
+
+/* line 52, ../../../sass-test/sass/home.scss */
+.navbar-brand {
+  padding: 12.5px 0px;
+  font-size: 24px;
+  display: inline;
+}
+
+/* line 58, ../../../sass-test/sass/home.scss */
+.brand-logo {
+  display: inline-block;
+}
+
+/* line 62, ../../../sass-test/sass/home.scss */
+.navbar > .container .navbar-brand {
+  margin-left: 15px;
+}
+
+/* line 66, ../../../sass-test/sass/home.scss */
+ul .nav .navbar-nav .navbar-right {
+  background-color: red;
+}
+
+/* line 70, ../../../sass-test/sass/home.scss */
+.nav > .nav_list > .nav-link:hover, .navbar-brand:hover {
+  border-bottom: 2px solid red;
+}
+
+/* line 74, ../../../sass-test/sass/home.scss */
+.navbar-default {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #0154a6;
+  border: none;
+  transition: height 0.3s;
+  transition: background-color 0.3s;
+}
+
+/* line 86, ../../../sass-test/sass/home.scss */
+.nav-box {
+  max-width: 1470px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 94, ../../../sass-test/sass/home.scss */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* line 99, ../../../sass-test/sass/home.scss */
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: white;
+  transition: color 0.3s;
+}
+
+/* line 104, ../../../sass-test/sass/home.scss */
+.navbar-brand > a {
+  color: white;
+  transition: color 0.3s;
+}
+
+/* line 109, ../../../sass-test/sass/home.scss */
+.navbar-default:hover {
+  background-color: white;
+}
+
+/* line 113, ../../../sass-test/sass/home.scss */
+.navbar-default:hover .navbar-brand {
+  color: red;
+}
+
+/* line 117, ../../../sass-test/sass/home.scss */
+.navbar-default:hover .navbar-nav > li > a {
+  color: red;
+}
+
+/* line 121, ../../../sass-test/sass/home.scss */
+.navbar-default .navbar-nav > li > a:focus {
+  color: red;
+}
+
+/* line 125, ../../../sass-test/sass/home.scss */
+.nav_list {
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+/* line 133, ../../../sass-test/sass/home.scss */
+.nav-container {
+  transition: margin-top 0.3s;
+}
+
+/* Additional navbar sizing */
+/* line 140, ../../../sass-test/sass/home.scss */
+.navbar-toggle {
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 12px;
+  width: 72px;
+  box-shadow: none;
+}
+
+/* line 151, ../../../sass-test/sass/home.scss */
+.brand-logo {
+  height: 29.878px;
+  width: 30px;
+  display: inline-block;
+}
+
+/* line 157, ../../../sass-test/sass/home.scss */
+.icon-bar {
+  margin-left: 12.5px;
+}
+
+/* line 161, ../../../sass-test/sass/home.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+/* line 165, ../../../sass-test/sass/home.scss */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+/* line 170, ../../../sass-test/sass/home.scss */
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+/* line 174, ../../../sass-test/sass/home.scss */
+.navbar-toggle span.icon-bar {
+  transition: all 0.15s;
+}
+
+/* line 179, ../../../sass-test/sass/home.scss */
+.navbar-default:focus .navbar-toggle .icon-bar,
+.navbar-default:hover .navbar-toggle .icon-bar {
+  background-color: red;
+}
+
+/* line 184, ../../../sass-test/sass/home.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+}
+
+/* line 188, ../../../sass-test/sass/home.scss */
+.navbar-toggle span:nth-child(2) {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+/* line 193, ../../../sass-test/sass/home.scss */
+.navbar-toggle span:nth-child(3) {
+  opacity: 0;
+}
+
+/* line 197, ../../../sass-test/sass/home.scss */
+.navbar-toggle span:nth-child(4) {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+/* line 202, ../../../sass-test/sass/home.scss */
+.navbar-toggle.collapsed span:nth-child(2),
+.navbar-toggle.collapsed span:nth-child(4) {
+  transform: rotate(0);
+}
+
+/* line 207, ../../../sass-test/sass/home.scss */
+.navbar-toggle.collapsed span:nth-child(3) {
+  opacity: 1;
+}
+
+/* line 211, ../../../sass-test/sass/home.scss */
+.navbar-default .navbar-brand:focus {
+  color: white;
+}
+
+/* line 215, ../../../sass-test/sass/home.scss */
+.navbar-default:hover .navbar-brand:focus {
+  color: red;
+}
+
+/* line 219, ../../../sass-test/sass/home.scss */
+.navbar-default:hover .navbar-nav > li > a:focus {
+  color: red;
+}
+
+/* line 223, ../../../sass-test/sass/home.scss */
+.navbar-band-top {
+  height: 20px;
+  width: 100%;
+  background-color: #0154a6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* line 232, ../../../sass-test/sass/home.scss */
+.navbar-band-bottom {
+  height: 20px;
+  width: 100%;
+  background-color: #0154a6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 240, ../../../sass-test/sass/home.scss */
+.bottom {
+  width: 100%;
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 250, ../../../sass-test/sass/home.scss */
+.top-home-container {
+  position: relative;
+  min-height: 500px;
+}
+
+/* line 255, ../../../sass-test/sass/home.scss */
+.slideshow-container {
+  width: 66%;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+/* line 261, ../../../sass-test/sass/home.scss */
+.mySlides {
+  display: none;
+  height: auto;
+}
+
+/* line 266, ../../../sass-test/sass/home.scss */
+.right-box-container {
+  width: 33.33%;
+  display: inline-block;
+  position: absolute;
+  height: auto;
+  right: 0;
+}
+
+/* line 274, ../../../sass-test/sass/home.scss */
+.clc-player-profile {
+  width: 100%;
+  background-color: white;
+  height: 150px;
+}
+
+/* line 280, ../../../sass-test/sass/home.scss */
+.player-name {
+  width: 100%;
+  height: 30px;
+  background-color: #0154a6;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+/* line 289, ../../../sass-test/sass/home.scss */
+.player-photo {
+  width: 120px;
+  height: 120px;
+  background-image: url(PJlax.jpg);
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 299, ../../../sass-test/sass/home.scss */
+.player-info {
+  display: inline-block;
+  position: absolute;
+  height: 120px;
+  line-height: 120px;
+  width: 70%;
+}
+
+/* line 307, ../../../sass-test/sass/home.scss */
+.player-info > ul {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 14px;
+  color: black;
+  width: 100%;
+}
+
+/* line 316, ../../../sass-test/sass/home.scss */
+.calendar {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  height: 330px;
+}
+
+/* line 323, ../../../sass-test/sass/home.scss */
+.google-calendar {
+  width: 500px;
+  height: 500px;
+}
+
+/* line 328, ../../../sass-test/sass/home.scss */
+.bottom-home-container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 338, ../../../sass-test/sass/home.scss */
+.store-text {
+  height: 30px;
+  width: 100%;
+}
+
+/* line 343, ../../../sass-test/sass/home.scss */
+.store-text > p {
+  font-size: 45px;
+  color: red;
+  text-align: center;
+  padding: 40px;
+}
+
+/* line 352, ../../../sass-test/sass/home.scss */
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #0154a6;
+}
+
+/* line 358, ../../../sass-test/sass/home.scss */
+.footer-container {
+  width: 100%;
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  position: relative;
+}
+
+/* line 367, ../../../sass-test/sass/home.scss */
+.footer-logo {
+  background-image: url(CLC.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 126px;
+  width: 130px;
+  position: absolute;
+  top: 12.5px;
+}
+
+/* line 378, ../../../sass-test/sass/home.scss */
+.footer-text {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 65px;
+  color: white;
+}
+
+/* line 385, ../../../sass-test/sass/home.scss */
+.footer-text > a {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 391, ../../../sass-test/sass/home.scss */
+.footer-text > a:hover {
+  text-decoration: none;
+}
+
+/* line 397, ../../../sass-test/sass/home.scss */
+.contact-container {
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 406, ../../../sass-test/sass/home.scss */
+.pj {
+  display: inline-block;
+  width: 33%;
+  height: 300px;
+}
+
+/* line 412, ../../../sass-test/sass/home.scss */
+.sg {
+  display: inline-block;
+  width: 33%;
+  height: 300px;
+}
+
+/* line 418, ../../../sass-test/sass/home.scss */
+.ch {
+  display: inline-block;
+  width: 31.5%;
+  height: 300px;
+  right: 15px;
+}
+
+/* line 425, ../../../sass-test/sass/home.scss */
+.pj-image {
+  background-image: url(PD.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  width: 50%;
+  padding-top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 437, ../../../sass-test/sass/home.scss */
+.sg-image {
+  background-image: url(SG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  width: 50%;
+  padding-top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 449, ../../../sass-test/sass/home.scss */
+.ch-image {
+  background-image: url(CH.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  width: 50%;
+  padding-top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 461, ../../../sass-test/sass/home.scss */
+.pj-text, .ch-text, .sg-text {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* line 468, ../../../sass-test/sass/home.scss */
+.bottom-contact-container {
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: #0154a6;
+  text-align: center;
+  font-size: 36px;
+  background-color: white;
+}
+
+/* line 478, ../../../sass-test/sass/home.scss */
+.contact-logos {
+  font-size: 75px;
+  letter-spacing: 30px;
+}
+
+/* line 483, ../../../sass-test/sass/home.scss */
+.contact-logos > a {
+  color: #0154a6;
+}
+
+/* line 487, ../../../sass-test/sass/home.scss */
+.contact-logos > a > .fa-envelope:hover {
+  color: #cd1200;
+}
+
+/* line 491, ../../../sass-test/sass/home.scss */
+.contact-logos > a > .fa-twitter:hover {
+  color: #0084ff;
+}
+
+/* line 495, ../../../sass-test/sass/home.scss */
+.contact-logos > a > .fa-instagram:hover {
+  color: #dd2b7b;
+}
+
+/* line 501, ../../../sass-test/sass/home.scss */
+.bottom-roster {
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 510, ../../../sass-test/sass/home.scss */
+.roster-title {
+  color: white;
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 517, ../../../sass-test/sass/home.scss */
+.roster-table {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+/* line 526, ../../../sass-test/sass/home.scss */
+.roster-row-format {
+  font-size: 18px;
+  background-color: #0154a6;
+  color: white;
+}
+
+/* line 532, ../../../sass-test/sass/home.scss */
+td {
+  border-top: 1px solid #0154a6;
+}
+
+/* line 536, ../../../sass-test/sass/home.scss */
+td, .roster-row-format {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+
+/* line 544, ../../../sass-test/sass/home.scss */
+.bottom-schedule {
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 553, ../../../sass-test/sass/home.scss */
+.schedule-title {
+  color: white;
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* line 561, ../../../sass-test/sass/home.scss */
+.top-schedule-header {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 18px;
+  background-color: #0154a6;
+}
+
+/* line 571, ../../../sass-test/sass/home.scss */
+.september-schedule {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+/* line 579, ../../../sass-test/sass/home.scss */
+.sept-sched-format {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-color: #bebebe;
+  color: white;
+}
+
+/* line 587, ../../../sass-test/sass/home.scss */
+.month-sched-format {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-color: white;
+  color: black;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* Smaller desktop: */
+  /* line 598, ../../../sass-test/sass/home.scss */
+  .player-info > ul {
+    font-size: 11px;
+    width: 90%;
+  }
+
+  /* line 603, ../../../sass-test/sass/home.scss */
+  .footer-text {
+    font-size: 22px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 950px) {
+  /* Ipad / Iphone: */
+  /* line 612, ../../../sass-test/sass/home.scss */
+  .slideshow-container {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  /* line 617, ../../../sass-test/sass/home.scss */
+  .right-box-container {
+    width: 100%;
+    height: auto;
+    right: 0;
+    display: block;
+    position: static;
+  }
+
+  /* line 625, ../../../sass-test/sass/home.scss */
+  .player-info > ul {
+    font-size: 14px;
+  }
+
+  /* line 629, ../../../sass-test/sass/home.scss */
+  .top-home-container {
+    position: static;
+  }
+
+  /* line 633, ../../../sass-test/sass/home.scss */
+  .footer-text {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 764px) {
+  /* Ipad / Iphone: */
+  /* line 641, ../../../sass-test/sass/home.scss */
+  .nav_list {
+    background-color: white;
+  }
+
+  /* line 645, ../../../sass-test/sass/home.scss */
+  .pj, .sg, .ch {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 644px) {
+  /* Ipad / Iphone: */
+  /* line 655, ../../../sass-test/sass/home.scss */
+  .footer-text {
+    padding-top: 20px;
+    margin-left: 120px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* Ipad / Iphone: */
+  /* line 663, ../../../sass-test/sass/home.scss */
+  .player-info > ul {
+    font-size: 9px;
+    width: 80%;
+  }
+
+  /* line 668, ../../../sass-test/sass/home.scss */
+  .player-info {
+    display: inline-block;
+    position: absolute;
+    height: 110px;
+    line-height: 90px;
+    width: 70%;
+  }
+
+  /* line 675, ../../../sass-test/sass/home.scss */
+  .player-photo {
+    width: 80px;
+    height: 80px;
+    background-image: url(PJlax.jpg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 685, ../../../sass-test/sass/home.scss */
+  .clc-player-profile {
+    height: 110px;
+  }
+
+  /* line 689, ../../../sass-test/sass/home.scss */
+  .pj, .sg, .ch {
+    height: 150px;
+  }
+
+  /* line 693, ../../../sass-test/sass/home.scss */
+  .pj-text, .ch-text, .sg-text {
+    font-size: 11px;
+  }
+
+  /* line 697, ../../../sass-test/sass/home.scss */
+  .bottom-contact-container {
+    font-size: 20px;
+  }
+
+  /* line 701, ../../../sass-test/sass/home.scss */
+  .contact-logos {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 708, ../../../sass-test/sass/home.scss */
+  .roster-player {
+    font-size: 10px;
+  }
+}
